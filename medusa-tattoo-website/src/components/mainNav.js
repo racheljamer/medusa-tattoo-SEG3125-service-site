@@ -1,12 +1,11 @@
 import React from "react";
-import {Container, Nav, Navbar, NavDropdown} from "react-bootstrap";
+import {Container, Nav, Navbar} from "react-bootstrap";
 
 function MainNav(){
     return (
         <Navbar bg="light" expand="lg" variant="light">
             <Container>
                 <Navbar.Brand href="#home">
-                    <img/>
                     Medusa Tattoo
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />

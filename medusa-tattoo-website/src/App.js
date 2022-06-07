@@ -14,11 +14,7 @@ function App() {
         <Routes>
             <Route path="/" element={<Home/>}/>
             <Route path="/booking" element={<Booking/>}/>
-            <Route path="/booking/piercing" element={<Booking/>}>
-                <Route path="/booking/tattoo" element={<Booking/>}/>
-                <Route path="/booking/tattooremoval" element={<Booking/>}/>
-                <Route path="/confirmation" element={<Confirmation/>}/>
-            </Route>
+
         </Routes>
     </Router>
   );
