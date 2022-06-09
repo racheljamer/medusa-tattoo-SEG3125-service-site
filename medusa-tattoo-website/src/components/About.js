@@ -22,7 +22,7 @@ function About() {
                 </Row>
             </div>
             <hr/>
-            <div className="bg-secondary p-4 rounded shadow border">
+            <div className="p-4 rounded shadow border">
                 <h3>About Us</h3>
                 <div className="mt-3">
                     <Row class="mr-2">

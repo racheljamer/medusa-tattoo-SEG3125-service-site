@@ -14,6 +14,8 @@ function Home() {
                 <About/>
                 <hr/>
                 <Services/>
+                <hr/>
+                <Artists/>
             </Container>
 
         </>
