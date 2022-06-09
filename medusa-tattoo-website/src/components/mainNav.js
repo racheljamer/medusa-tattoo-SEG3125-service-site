@@ -22,6 +22,7 @@ function MainNav(){
                         <Nav.Link href="#artists">Artists</Nav.Link>
                         <Nav.Link href="#services">Services</Nav.Link>
                         <Nav.Link href="#contact">Contact</Nav.Link>
+                        <Nav.Link href="#Careers">Careers</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

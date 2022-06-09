@@ -1,3 +1,13 @@
 /* theme customizations */
+$theme-colors: (
+        "secondary": #a9d3a2,
+        "success":    #198754FF,
+        "info":       #0DCAF0FF,
+        "warning":    #FFC107FF,
+        "danger":     #DC3545FF,
+        "light":      #F8F9FAFF,
+        "dark":       #212529FF
+);
+
 
 @import '~bootstrap/scss/bootstrap.scss';
