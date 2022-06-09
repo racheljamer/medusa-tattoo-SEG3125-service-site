@@ -5,6 +5,7 @@ import Services from "../components/Services";
 import Artists from "../components/Artists";
 import Contact from "../components/Contact";
 import {Container} from "react-bootstrap";
+import Careers from "../components/Careers";
 
 function Home() {
     return (
@@ -18,6 +19,8 @@ function Home() {
                 <Artists/>
                 <hr/>
                 <Contact/>
+                <hr/>
+                <Careers/>
             </Container>
 
         </>
