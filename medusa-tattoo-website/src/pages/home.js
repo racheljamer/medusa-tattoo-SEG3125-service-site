@@ -12,6 +12,8 @@ function Home() {
             <MainNav/>
             <Container>
                 <About/>
+                <hr/>
+                <Services/>
             </Container>
 
         </>

@@ -1,6 +1,5 @@
 import React from "react";
-import {Col, Container, Image, Row} from "react-bootstrap";
-import CustomerReview from "./CustomerReview";
+import {Col, Image, Row, Table} from "react-bootstrap";
 
 //Strings
 
@@ -29,7 +28,43 @@ function About() {
                     <Row class="mr-2">
                         <Col>
                             <h4>History</h4>
-                                <p>{historyStr}</p>
+                            <p>{historyStr}</p>
+                            <h4>Studio Hours</h4>
+                            <div className="w-25">
+                                <Table bordered striped>
+                                    <tbody>
+                                    <tr>
+                                        <td>Sunday</td>
+                                        <td>Closed</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Monday</td>
+                                        <td>Closed</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Tuesday</td>
+                                        <td>10 - 7</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Wednesday</td>
+                                        <td>10 - 7</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Thursday</td>
+                                        <td>10 - 7</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Friday</td>
+                                        <td>10 - 7</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Saturday</td>
+                                        <td>10 - 7</td>
+                                    </tr>
+                                    </tbody>
+                                </Table>
+                            </div>
+
                         </Col>
                         <Col>
                             <h4>Reviews</h4>

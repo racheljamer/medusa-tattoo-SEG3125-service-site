@@ -1,13 +1,19 @@
 /* theme customizations */
-$theme-colors: (
-        "secondary": #a9d3a2,
-        "success":    #198754FF,
-        "info":       #0DCAF0FF,
-        "warning":    #FFC107FF,
-        "danger":     #DC3545FF,
-        "light":      #F8F9FAFF,
-        "dark":       #212529FF
-);
+//$theme-colors: (
+//        "secondary":  #a9d3a2,
+//        "success":    #198754FF,
+//        "info":       #0DCAF0FF,
+//        "warning":    #FFC107FF,
+//        "danger":     #DC3545FF,
+//        "light":      #F8F9FAFF,
+//        "dark":       #212529FF,
+//        "beige":      #ab948b,
+//);
+
+.invertedImg {
+  -webkit-filter: invert(1);
+  filter: invert(1);
+}
 
 
 @import '~bootstrap/scss/bootstrap.scss';
