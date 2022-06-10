@@ -94,7 +94,7 @@ function Artists() {
                             <Card.Text>
                                 We are hiring!
                             </Card.Text>
-                            <Button variant="primary">Apply Now</Button>
+                            <Button variant="primary" href="#careers">View Careers</Button>
                         </Card.Body>
                     </Card>
                 </Col>
