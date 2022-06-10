@@ -14,7 +14,7 @@ const review3 = "\"Julie is my new go-to for all piercings. She’s incredible! 
 function About() {
     return (
         <>
-            <div class="mt-4">
+            <div class="mt-4" id="home">
                 <Row class="mr-2">
                     <Col><Image src="https://picsum.photos/400/200" className="rounded shadow border"/></Col>
                     <Col><Image src="https://picsum.photos/400/200" className="rounded shadow border"/></Col>

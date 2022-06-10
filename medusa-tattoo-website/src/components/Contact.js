@@ -3,10 +3,10 @@ import {Button, Col, Container, Image, Row, Stack, Table} from "react-bootstrap"
 import parlourPic from "../images/parlourexternal.jpg";
 import map from "../images/map.png";
 
-function Contact() {
+function Contact(props) {
     return (
         <div className="p-4 rounded shadow border">
-            <h3>Contact</h3>
+            <h3 id="contact">Contact</h3>
             <Container fluid><Image className="rounded mx-auto d-block" width="750" src={parlourPic} rounded fluid/></Container>
             <hr/>
             <Row>
@@ -21,6 +21,7 @@ function Contact() {
                     <h4>Contact Us</h4>
                     <p>(123) 456-7890 <br/> info@medusatattoo.ca</p>
                     <p>123 Appletree Avenue <br/> Ottawa, ON <br/>A1B 2C3</p>
+                    <Button variant="primary">Cancel Appointment</Button>
                 </Col>
                 <Col>
                     <h4>Studio Hours</h4>

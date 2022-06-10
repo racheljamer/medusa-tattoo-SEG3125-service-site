@@ -19,10 +19,10 @@ function MainNav(){
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
                         <Nav.Link href="#home">Home</Nav.Link>
-                        <Nav.Link href="#artists">Artists</Nav.Link>
                         <Nav.Link href="#services">Services</Nav.Link>
+                        <Nav.Link href="#artists">Artists</Nav.Link>
                         <Nav.Link href="#contact">Contact</Nav.Link>
-                        <Nav.Link href="#Careers">Careers</Nav.Link>
+                        <Nav.Link href="#careers">Careers</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

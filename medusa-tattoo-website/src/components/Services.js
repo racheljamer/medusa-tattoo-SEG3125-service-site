@@ -4,7 +4,7 @@ import {Row, Col, Accordion, Button, Table, ListGroup} from "react-bootstrap";
 function Services() {
     return (
         <div className="bg-beige p-4 rounded shadow border">
-            <h3>Services</h3>
+            <h3 id="services">Services</h3>
             <Row>
                 <Col>
                     <h4>Tattoo</h4>

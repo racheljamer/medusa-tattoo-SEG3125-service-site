@@ -5,7 +5,7 @@ import {Button, Col, Image, Row, Stack} from "react-bootstrap";
 function Careers() {
     return(
         <div className="p-4 rounded shadow border">
-            <h3>Careers</h3>
+            <h3 id="careers">Careers</h3>
             <Row>
                 <Col>
                     <Stack>
