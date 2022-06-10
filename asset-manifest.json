@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a679896b.css",
+    "main.js": "/static/js/main.f2178283.js",
+    "static/js/787.7c06ff59.chunk.js": "/static/js/787.7c06ff59.chunk.js",
+    "static/media/Jonathan.png": "/static/media/Jonathan.0ea56cc45e27cbe8249d.png",
+    "static/media/Macie.png": "/static/media/Macie.a238c5c958d954081215.png",
+    "static/media/Sarah.jpg": "/static/media/Sarah.b05bd25ead7d760fa25c.jpg",
+    "static/media/Naomie.jpg": "/static/media/Naomie.a864a17b562336e991de.jpg",
+    "static/media/medusa_tattoo_logo.png": "/static/media/medusa_tattoo_logo.7171071be25b89a38d31.png",
+    "static/media/Jerry.jpg": "/static/media/Jerry.5d1c302cb3f2e33f964b.jpg",
+    "static/media/parlourexternal.jpg": "/static/media/parlourexternal.7536db7c342938261bdf.jpg",
+    "static/media/medusatattooarm.jpg": "/static/media/medusatattooarm.e7305ffb9d0d6aa99d20.jpg",
+    "static/media/map.png": "/static/media/map.e493ca25a1e992f9c14d.png",
+    "static/media/nyxGodessTattoo.jpg": "/static/media/nyxGodessTattoo.52fc3c07d3d96d9634f9.jpg",
+    "static/media/teampic.jpg": "/static/media/teampic.0ecd1fcc820f1274765d.jpg",
+    "static/media/Maggie.jpg": "/static/media/Maggie.2a282f1d877584a7f4d3.jpg",
+    "static/media/Small-Medusa-Tattoo-2.jpg": "/static/media/Small-Medusa-Tattoo-2.0a6218d31477e432eb4c.jpg",
+    "static/media/aphroditeLegTattoo.jpg": "/static/media/aphroditeLegTattoo.446446700f9065e2f3ae.jpg",
+    "static/media/aphroditeTattoo.jpg": "/static/media/aphroditeTattoo.88421113b7991c6b4713.jpg",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.a679896b.css.map": "/static/css/main.a679896b.css.map",
+    "main.f2178283.js.map": "/static/js/main.f2178283.js.map",
+    "787.7c06ff59.chunk.js.map": "/static/js/787.7c06ff59.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a679896b.css",
+    "static/js/main.f2178283.js"
+  ]
+}
