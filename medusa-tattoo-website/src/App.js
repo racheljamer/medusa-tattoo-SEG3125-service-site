@@ -3,9 +3,11 @@ import logo from './logo.svg';
 import './App.css';
 import {Route, BrowserRouter as Router, Routes} from "react-router-dom";
 import Home from "./pages/home";
-import Booking from "./pages/booking";
+import TattooBooking from "./pages/tattooBooking";
 import Confirmation from "./pages/confirmation";
 import MainNav from "./components/mainNav";
+import TattooRemovalBooking from "./pages/tattooRemovalBooking";
+import PiercingBooking from "./pages/piercingBooking";
 
 
 function App() {
@@ -13,8 +15,9 @@ function App() {
     <Router>
         <Routes>
             <Route path="/" element={<Home/>}/>
-            <Route path="/booking" element={<Booking/>}/>
-
+            <Route path="/bookTattoo" element={<TattooBooking/>}/>
+            <Route path="/bookTattooRemoval" element={<TattooRemovalBooking/>}/>
+            <Route path="/bookPiercing" element={<PiercingBooking/>}/>
         </Routes>
     </Router>
   );
