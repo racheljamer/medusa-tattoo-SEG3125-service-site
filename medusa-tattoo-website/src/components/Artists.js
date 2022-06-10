@@ -10,7 +10,7 @@ import tattooMedusa from "../images/artists/Small-Medusa-Tattoo-2.jpg";
 
 function Artists() {
     return (
-        <div className="p-4 rounded shadow border">
+        <div className="p-4 rounded shadow border bg-light">
             <h3 id="artists" className="text-center mb-4">Artists</h3>
             <Row>
                 <Col>

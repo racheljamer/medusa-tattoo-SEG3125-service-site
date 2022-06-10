@@ -7,7 +7,7 @@ function PiercingBooking() {
         <>
             <BookingNav currentPage="Book Piercing" category="Piercing"/>
             <Container>
-                <div className="p-4 my-4 rounded shadow border">
+                <div className="p-4 my-4 rounded shadow border bg-light">
                     <h3>Book Piercing</h3>
 
 
@@ -177,7 +177,7 @@ function PiercingBooking() {
 
 
 
-                        <Button variant="primary" type="submit" className="mt-3">
+                        <Button variant="primary" type="submit" className="mt-3" href="/confirmed">
                             Book Appointment
                         </Button>
                     </Form>

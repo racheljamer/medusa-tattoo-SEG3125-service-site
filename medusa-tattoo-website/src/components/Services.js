@@ -3,13 +3,13 @@ import {Row, Col, Accordion, Button, Table, ListGroup} from "react-bootstrap";
 
 function Services() {
     return (
-        <div className="bg-beige p-4 rounded shadow border">
+        <div className="p-4 rounded shadow border bg-light">
             <h3 id="services" className="text-center mb-4">Services</h3>
             <Row>
                 <Col>
                     <h4>Tattoo</h4>
                     <p>Tattoos are priced based on size and complexity. You must book a consult with an artist to choose a design and determine final pricing.</p>
-                    <Accordion>
+                    <Accordion className="bg-light">
                         <Accordion.Item eventKey="0">
                             <Accordion.Header>Pricing</Accordion.Header>
                             <Accordion.Body>

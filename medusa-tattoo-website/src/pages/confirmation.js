@@ -9,7 +9,7 @@ function Confirmation() {
         <>
             <ConfirmNav/>
             <Container>
-                <div className="mt-4 p-4 rounded shadow border">
+                <div className="mt-4 p-4 rounded shadow border bg-light">
                     <h3 className="text-center mb-4">Thank you!</h3>
                     <div style={{width:"500px"}} className="mx-auto d-block">
                         <p>Please check your email for all of your booking details. Please arrive 15 minutes early to your appointment time: this will ensure consent and screening forms are completed by your scheduled time. </p>

@@ -15,10 +15,10 @@ function MainNav(props){
                        </span>
                     </div>
                 </Navbar.Brand>
-                <Breadcrumb variant="light">
+                <Breadcrumb>
                     <Breadcrumb.Item href="/#services">Services</Breadcrumb.Item>
                     <Breadcrumb.Item href="/#services">{props.category}</Breadcrumb.Item>
-                    <Breadcrumb.Item active>{props.currentPage}</Breadcrumb.Item>
+                    <Breadcrumb.Item active style={{color: "white"}}>{props.currentPage}</Breadcrumb.Item>
                 </Breadcrumb>
             </Container>
         </Navbar>

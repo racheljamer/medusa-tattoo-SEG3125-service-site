@@ -7,7 +7,7 @@ function TattooBooking() {
         <>
             <BookingNav currentPage="Book Tattoo Consult" category="Tattoo"/>
             <Container>
-                <div className="p-4 my-4 rounded shadow border">
+                <div className="p-4 my-4 rounded shadow border bg-light">
                     <h3>Book Tattoo Consult</h3>
                     <br/>
                     <h5>What is a tattoo consult?</h5>
@@ -90,7 +90,7 @@ function TattooBooking() {
 
 
 
-                        <Button variant="primary" type="submit" className="mt-3">
+                        <Button variant="primary" type="submit" className="mt-3" href="/confirmed">
                             Book Appointment
                         </Button>
                     </Form>

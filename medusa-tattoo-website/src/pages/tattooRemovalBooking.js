@@ -7,7 +7,7 @@ function TattooRemovalBooking() {
         <>
             <BookingNav currentPage="Book Tattoo Removal" category="Tattoo Removal"/>
             <Container>
-                <div className="p-4 my-4 rounded shadow border">
+                <div className="p-4 my-4 rounded shadow border bg-light">
                     <h3>Book Tattoo Removal</h3>
                     <br/>
                     <h5>How does laser tattoo removal work?</h5>
@@ -86,7 +86,7 @@ function TattooRemovalBooking() {
 
 
 
-                        <Button className="mt-3" variant="primary" type="submit">
+                        <Button className="mt-3" variant="primary" type="submit" href="/confirmed">
                             Book Appointment
                         </Button>
                     </Form>

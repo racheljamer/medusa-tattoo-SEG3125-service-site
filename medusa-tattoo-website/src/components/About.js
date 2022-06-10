@@ -20,14 +20,14 @@ function About() {
         <>
             <div class="mt-4" id="home">
                 <Row class="mr-2">
-                    <Col><Image src={nyx} width="300" className="rounded shadow border"/></Col>
-                    <Col><Image src={medusa} width="300" className="rounded shadow border"/></Col>
-                    <Col><Image src={aphrodite} width="300" className="rounded shadow border"/></Col>
-                    <Col><Image src={aphroditeLeg} width="300" className="rounded shadow border"/></Col>
+                    <Col><Image src={nyx} width="300" className="rounded shadow "/></Col>
+                    <Col><Image src={medusa} width="300" className="rounded shadow "/></Col>
+                    <Col><Image src={aphrodite} width="300" className="rounded shadow "/></Col>
+                    <Col><Image src={aphroditeLeg} width="300" className="rounded shadow "/></Col>
                 </Row>
             </div>
             <hr/>
-            <div className="p-4 rounded shadow border">
+            <div className="p-4 rounded shadow border bg-light">
                 <h3 className="text-center mb-4">About Us</h3>
                 <div className="mt-3">
                     <Row class="mr-2">
