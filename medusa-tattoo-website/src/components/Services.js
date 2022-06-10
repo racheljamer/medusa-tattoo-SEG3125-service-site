@@ -63,6 +63,7 @@ function Services() {
                     <h4>Piercing</h4>
                     <p>Medusa Tattoo now offers piercings! See the piercing price list for individual piercings.</p>
                     <p>We pride ourselves on staying up to date with the latest safety techniques. We get inspected on a regular basis by the Ottawa Board of Health. The equipment (including the needle) will be opened from the sterile packaging in front of you, all surfaces are covered with a barrier, all initial jewelry comes prepacked and sterilized and the needles are disposed of after every use in a sharps container located away from the piercing surface.</p>
+                    <Button variant="primary" size="lg">Book Piercing</Button>
                 </Col>
                 <Col>
                     <br/>
