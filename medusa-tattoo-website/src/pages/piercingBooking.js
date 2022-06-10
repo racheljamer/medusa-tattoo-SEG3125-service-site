@@ -12,6 +12,7 @@ function PiercingBooking() {
 
 
                     <Form style={{width: "400px"}}>
+                        <h5>Step 1. Choose your piercing</h5>
                         <Tabs
                             defaultActiveKey="ear"
                             id="piercingTab"
