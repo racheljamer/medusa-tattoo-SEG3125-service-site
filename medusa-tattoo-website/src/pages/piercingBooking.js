@@ -1,6 +1,5 @@
 import React from "react";
 import BookingNav from "../components/BookingNav";
-import {Route, Routes, BrowserRouter as Router} from "react-router-dom";
 import {Button, Col, Container, Form, Row, Tab, Tabs} from "react-bootstrap";
 
 function PiercingBooking() {

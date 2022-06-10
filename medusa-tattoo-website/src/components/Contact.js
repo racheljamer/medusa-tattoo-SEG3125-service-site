@@ -17,7 +17,7 @@ class Contact extends React.Component{
     render(){
         return (
             <div className="p-4 rounded shadow border">
-                <h3 id="contact">Contact</h3>
+                <h3 id="contact" className="text-center mb-4">Contact</h3>
                 <Container fluid><Image className="rounded mx-auto d-block" width="750" src={parlourPic} rounded fluid/></Container>
                 <hr/>
                 <Row>

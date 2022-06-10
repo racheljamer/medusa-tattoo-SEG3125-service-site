@@ -11,7 +11,7 @@ import tattooMedusa from "../images/artists/Small-Medusa-Tattoo-2.jpg";
 function Artists() {
     return (
         <div className="p-4 rounded shadow border">
-            <h3 id="artists">Artists</h3>
+            <h3 id="artists" className="text-center mb-4">Artists</h3>
             <Row>
                 <Col>
                     <Card style={{ width: '18rem', marginBottom:'1rem' }}>

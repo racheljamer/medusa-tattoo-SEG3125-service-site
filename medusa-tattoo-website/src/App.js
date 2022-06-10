@@ -18,6 +18,7 @@ function App() {
             <Route path="/bookTattoo" element={<TattooBooking/>}/>
             <Route path="/bookTattooRemoval" element={<TattooRemovalBooking/>}/>
             <Route path="/bookPiercing" element={<PiercingBooking/>}/>
+            <Route path="/confirmed" element={<Confirmation/>}/>
         </Routes>
     </Router>
   );

@@ -16,7 +16,7 @@ class Careers extends React.Component {
     render(){
         return(
             <div className="p-4 rounded shadow border">
-                <h3 id="careers">Careers</h3>
+                <h3 id="careers" className="text-center mb-4">Careers</h3>
                 <Row>
                     <Col>
                         <Stack>

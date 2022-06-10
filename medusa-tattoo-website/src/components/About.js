@@ -28,7 +28,7 @@ function About() {
             </div>
             <hr/>
             <div className="p-4 rounded shadow border">
-                <h3>About Us</h3>
+                <h3 className="text-center mb-4">About Us</h3>
                 <div className="mt-3">
                     <Row class="mr-2">
                         <Col>
