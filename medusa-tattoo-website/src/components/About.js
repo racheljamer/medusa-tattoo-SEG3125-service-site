@@ -1,5 +1,9 @@
 import React from "react";
 import {Col, Image, Row, Table} from "react-bootstrap";
+import aphroditeLeg from "../images/cool tattoos/aphroditeLegTattoo.jpg";
+import aphrodite from "../images/cool tattoos/aphroditeTattoo.jpg";
+import medusa from "../images/cool tattoos/medusatattooarm.jpg";
+import nyx from "../images/cool tattoos/nyxGodessTattoo.jpg";
 
 //Strings
 
@@ -16,9 +20,10 @@ function About() {
         <>
             <div class="mt-4" id="home">
                 <Row class="mr-2">
-                    <Col><Image src="https://picsum.photos/400/200" className="rounded shadow border"/></Col>
-                    <Col><Image src="https://picsum.photos/400/200" className="rounded shadow border"/></Col>
-                    <Col><Image src="https://picsum.photos/400/200" className="rounded shadow border"/></Col>
+                    <Col><Image src={nyx} width="300" className="rounded shadow border"/></Col>
+                    <Col><Image src={medusa} width="300" className="rounded shadow border"/></Col>
+                    <Col><Image src={aphrodite} width="300" className="rounded shadow border"/></Col>
+                    <Col><Image src={aphroditeLeg} width="300" className="rounded shadow border"/></Col>
                 </Row>
             </div>
             <hr/>
