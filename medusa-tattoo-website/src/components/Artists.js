@@ -1,11 +1,10 @@
 import React from "react";
-import {Button, Card, Col, ListGroup, ListGroupItem, Row} from "react-bootstrap";
+import {Button, Card, Col, Row} from "react-bootstrap";
 import artistSarah from "../images/artists/Sarah.jpg";
 import artistJonathan from "../images/artists/Jonathan.png";
 import artistJerry from "../images/artists/Jerry.jpg";
 import artistMacie from "../images/artists/Macie.png";
 import artistNaomie from "../images/artists/Naomie.jpg";
-import artistNiko from "../images/artists/NIko.png";
 import artistAnnie from "../images/artists/Maggie.jpg";
 import tattooMedusa from "../images/artists/Small-Medusa-Tattoo-2.jpg";
 

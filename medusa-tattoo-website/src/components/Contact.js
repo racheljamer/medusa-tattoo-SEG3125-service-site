@@ -2,7 +2,6 @@ import React from "react";
 import {Alert, Button, Col, Container, Image, Row, Stack, Table} from "react-bootstrap";
 import parlourPic from "../images/parlourexternal.jpg";
 import map from "../images/map.png";
-import CareerModalForm from "./CareerModalForm";
 import CancelApptModalForm from "./CancelApptModalForm";
 
 class Contact extends React.Component{
